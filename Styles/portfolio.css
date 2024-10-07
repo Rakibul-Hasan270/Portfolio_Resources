@@ -152,7 +152,6 @@ nav>ul>li {
     display: flex;
     justify-content: space-around;
     gap: 50px;
-
 }
 
 .element-title {
@@ -217,9 +216,9 @@ nav>ul>li {
     margin-bottom: 60px;
 }
 
-.v {
+/* .v {
     text-align: center;
-}
+} */
 
 .footer-main {
     background: rgb(229, 230, 215);
@@ -290,6 +289,7 @@ input:focus {
     .navTitle {
         margin-bottom: 20px;
     }
+
     .banner-content {
         margin-top: -86px;
         text-align: center;
@@ -302,10 +302,99 @@ input:focus {
     .banner-img>img {
         width: 100%;
     }
-    .img{
+
+    .img {
         display: none;
     }
-    .btn{
+
+    .btn {
         text-align: center;
     }
+
+    /* finish nav and banner  */
+    .about {
+        margin-top: 0px;
+    }
+
+    .about-dis {
+        width: auto;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+
+    .about-info-container {
+        flex-direction: column;
+        margin-top: 0px;
+        width: auto;
+    }
+
+    .about-info-dis {
+        margin-bottom: 20px;
+    }
+
+    .about-title {
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* cloded about  */
+
+    .what-i-do {
+        margin-bottom: 20px;
+    }
+
+    .flex-element,
+    .resume,
+    .footer {
+        flex-direction: column;
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .resume-title {
+        margin-bottom: 40px;
+    }
+
+    .resume-main-title {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .v {
+        margin-bottom: 20px;
+        /* margin-left: 365px; */
+    }
+    .new{
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
+
+
+    .footer-main {
+        padding: 0px 0px;
+    }
+    
+    .footer {
+        gap: 0px;
+        padding-bottom: 10px;
+    }
+    input {
+        width: auto;
+    }
+    .form {
+        width: auto;
+    }
+    
+.textarea {
+    width: 53%;
+}
+.footer-des {
+    margin-left: 0px;
+    padding: 15px;
+}
 }
